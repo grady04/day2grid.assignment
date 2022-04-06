@@ -1,0 +1,47 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "beats amazon apple adidas"
+    "adidas2 apple2 amazon2 beats2";
+
+}
+img{
+    border: 1px solid gray;
+    width: 70%;
+    height: 70%;
+    padding: 10px;
+    margin: 0px;
+}
+#beats{
+    grid-area: beats;
+}
+
+#beats2{
+    grid-area: beats2;
+}
+
+#amazon{
+    grid-area: amazon;
+}
+
+#amazon2{
+    grid-area: amazon2;
+}
+
+#apple{
+    grid-area: apple;
+}
+
+#apple2{
+    grid-area: apple2;
+}
+
+#adidas{
+    grid-area: adidas;
+}
+
+#adidas2{
+    grid-area: adidas2;
+}
